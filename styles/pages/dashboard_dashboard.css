@@ -1,0 +1,55 @@
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item"] > .r-box-right .r-box-main > .r-box-text > .r-box-header {
+  color: #d4e717;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item"] > .r-box-right .r-box-main > .r-box-text {
+  color: #FFFFFF;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item"] > .r-box-right .r-box-main > .r-box-icon > .r-panel-icon {
+  color: #1f1e23;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item"] > .r-box-right {
+  background-color: #229954;
+  background-image: none;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item"] > .r-box-right {
+  border-width: 2px;
+  border-color: #229954;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item1"] > .r-box-right .r-box-main > .r-box-text > .r-box-header {
+  color: #2e1be4;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item1"] > .r-box-right .r-box-main > .r-box-text {
+  color: #ffffff;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item1"] > .r-box-right .r-box-main > .r-box-icon > .r-panel-icon {
+  color: #000000;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item1"] > .r-box-right {
+  background-color: #c8bc32;
+  background-image: none;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item1"] > .r-box-right {
+  border-width: 2px;
+  border-color: #9b9122;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item2"] > .r-box-right .r-box-main > .r-box-text > .r-box-header {
+  color: #ffffff;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item2"] > .r-box-right .r-box-main > .r-box-text {
+  color: #000000;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item2"] > .r-box-right .r-box-main > .r-box-icon > .r-panel-icon {
+  color: #000000;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item2"] > .r-box-right {
+  background-color: #cccccc;
+  background-image: none;
+}
+[data-page="dashboard_dashboard"][data-itemid="dashboard-item2"] > .r-box-right {
+  border-width: 2px;
+}
+[data-page="dashboard_dashboard"][data-itemid="page_image_ash8f23hr"] {
+  width: 400px;
+}
+
+

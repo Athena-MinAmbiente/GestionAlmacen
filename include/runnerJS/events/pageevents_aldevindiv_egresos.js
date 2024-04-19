@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent('aldevindiv_egresos',Runner.pages.constants.PAGE_ADD,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){var ctrl=Runner.getControl(pageid,'almovdevdia_id_fk');ctrl.makeReadonly();var ctrlCampo1=Runner.getControl(pageid,'di_almacen');ctrlCampo1.makeReadonly();var ctrlCampo2=Runner.getControl(pageid,'di_funcionario');ctrlCampo2.makeReadonly();var ctrlCampo3=Runner.getControl(pageid,'di_depsup');ctrlCampo3.makeReadonly();var ctrlCampo4=Runner.getControl(pageid,'di_dep');ctrlCampo4.makeReadonly();});

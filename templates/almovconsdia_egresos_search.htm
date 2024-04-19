@@ -1,0 +1,480 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel almovconsdia_egresos search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN almovconsdiae_id_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_almovconsdiae_id}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="almovconsdiae_id{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="almovconsdiae_id" data-fieldname="almovconsdiae_id" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_almovconsdiae_id}">
+		{$label almovconsdia_egresos almovconsdiae_id }	</label>
+	<div class="r-search-option">
+		{$searchtype_almovconsdiae_id}
+	</div>
+	<div class="r-search-field">
+		{$almovconsdiae_id_editcontrol}	</div>
+	<div class="r-search-field">
+		{$almovconsdiae_id_editcontrol1}
+	</div>
+	
+</div>
+
+{END almovconsdiae_id_fieldblock}
+											
+{BEGIN almovconsdia_id_fk_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_almovconsdia_id_fk}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="almovconsdia_id_fk{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="almovconsdia_id_fk" data-fieldname="almovconsdia_id_fk" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_almovconsdia_id_fk}">
+		{$label almovconsdia_egresos almovconsdia_id_fk }	</label>
+	<div class="r-search-option">
+		{$searchtype_almovconsdia_id_fk}
+	</div>
+	<div class="r-search-field">
+		{$almovconsdia_id_fk_editcontrol}	</div>
+	<div class="r-search-field">
+		{$almovconsdia_id_fk_editcontrol1}
+	</div>
+	
+</div>
+
+{END almovconsdia_id_fk_fieldblock}
+											
+{BEGIN almovconsdiae_cantidad_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_almovconsdiae_cantidad}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="almovconsdiae_cantidad{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="almovconsdiae_cantidad" data-fieldname="almovconsdiae_cantidad" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_almovconsdiae_cantidad}">
+		{$label almovconsdia_egresos almovconsdiae_cantidad }	</label>
+	<div class="r-search-option">
+		{$searchtype_almovconsdiae_cantidad}
+	</div>
+	<div class="r-search-field">
+		{$almovconsdiae_cantidad_editcontrol}	</div>
+	<div class="r-search-field">
+		{$almovconsdiae_cantidad_editcontrol1}
+	</div>
+	
+</div>
+
+{END almovconsdiae_cantidad_fieldblock}
+											
+{BEGIN sys_user_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sys_user}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="sys_user{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="sys_user" data-fieldname="sys_user" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_sys_user}">
+		{$label almovconsdia_egresos sys_user }	</label>
+	<div class="r-search-option">
+		{$searchtype_sys_user}
+	</div>
+	<div class="r-search-field">
+		{$sys_user_editcontrol}	</div>
+	<div class="r-search-field">
+		{$sys_user_editcontrol1}
+	</div>
+	
+</div>
+
+{END sys_user_fieldblock}
+											
+{BEGIN sys_fecha_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sys_fecha}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="sys_fecha{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="sys_fecha" data-fieldname="sys_fecha" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_sys_fecha}">
+		{$label almovconsdia_egresos sys_fecha }	</label>
+	<div class="r-search-option">
+		{$searchtype_sys_fecha}
+	</div>
+	<div class="r-search-field">
+		{$sys_fecha_editcontrol}	</div>
+	<div class="r-search-field">
+		{$sys_fecha_editcontrol1}
+	</div>
+	
+</div>
+
+{END sys_fecha_fieldblock}
+											
+{BEGIN sys_time_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sys_time}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="sys_time{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="sys_time" data-fieldname="sys_time" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_sys_time}">
+		{$label almovconsdia_egresos sys_time }	</label>
+	<div class="r-search-option">
+		{$searchtype_sys_time}
+	</div>
+	<div class="r-search-field">
+		{$sys_time_editcontrol}	</div>
+	<div class="r-search-field">
+		{$sys_time_editcontrol1}
+	</div>
+	
+</div>
+
+{END sys_time_fieldblock}
+											
+{BEGIN sys_status_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sys_status}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="sys_status{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="sys_status" data-fieldname="sys_status" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_sys_status}">
+		{$label almovconsdia_egresos sys_status }	</label>
+	<div class="r-search-option">
+		{$searchtype_sys_status}
+	</div>
+	<div class="r-search-field">
+		{$sys_status_editcontrol}	</div>
+	<div class="r-search-field">
+		{$sys_status_editcontrol1}
+	</div>
+	
+</div>
+
+{END sys_status_fieldblock}
+											
+{BEGIN sys_document_func_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sys_document_func}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="sys_document_func{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="sys_document_func" data-fieldname="sys_document_func" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_sys_document_func}">
+		{$label almovconsdia_egresos sys_document_func }	</label>
+	<div class="r-search-option">
+		{$searchtype_sys_document_func}
+	</div>
+	<div class="r-search-field">
+		{$sys_document_func_editcontrol}	</div>
+	<div class="r-search-field">
+		{$sys_document_func_editcontrol1}
+	</div>
+	
+</div>
+
+{END sys_document_func_fieldblock}
+											
+{BEGIN sys_doclasedoc_id_fk_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sys_doclasedoc_id_fk}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="sys_doclasedoc_id_fk{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="sys_doclasedoc_id_fk" data-fieldname="sys_doclasedoc_id_fk" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_sys_doclasedoc_id_fk}">
+		{$label almovconsdia_egresos sys_doclasedoc_id_fk }	</label>
+	<div class="r-search-option">
+		{$searchtype_sys_doclasedoc_id_fk}
+	</div>
+	<div class="r-search-field">
+		{$sys_doclasedoc_id_fk_editcontrol}	</div>
+	<div class="r-search-field">
+		{$sys_doclasedoc_id_fk_editcontrol1}
+	</div>
+	
+</div>
+
+{END sys_doclasedoc_id_fk_fieldblock}
+											
+{BEGIN mcdalmacen_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_mcdalmacen}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="mcdalmacen{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="mcdalmacen" data-fieldname="mcdalmacen" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_mcdalmacen}">
+		{$label almovconsdia_egresos mcdalmacen }	</label>
+	<div class="r-search-option">
+		{$searchtype_mcdalmacen}
+	</div>
+	<div class="r-search-field">
+		{$mcdalmacen_editcontrol}	</div>
+	<div class="r-search-field">
+		{$mcdalmacen_editcontrol1}
+	</div>
+	
+</div>
+
+{END mcdalmacen_fieldblock}
+											
+{BEGIN mcdcuenta_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_mcdcuenta}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="mcdcuenta{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="mcdcuenta" data-fieldname="mcdcuenta" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_mcdcuenta}">
+		{$label almovconsdia_egresos mcdcuenta }	</label>
+	<div class="r-search-option">
+		{$searchtype_mcdcuenta}
+	</div>
+	<div class="r-search-field">
+		{$mcdcuenta_editcontrol}	</div>
+	<div class="r-search-field">
+		{$mcdcuenta_editcontrol1}
+	</div>
+	
+</div>
+
+{END mcdcuenta_fieldblock}
+											
+{BEGIN mcdcodelem_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_mcdcodelem}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="mcdcodelem{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="mcdcodelem" data-fieldname="mcdcodelem" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_mcdcodelem}">
+		{$label almovconsdia_egresos mcdcodelem }	</label>
+	<div class="r-search-option">
+		{$searchtype_mcdcodelem}
+	</div>
+	<div class="r-search-field">
+		{$mcdcodelem_editcontrol}	</div>
+	<div class="r-search-field">
+		{$mcdcodelem_editcontrol1}
+	</div>
+	
+</div>
+
+{END mcdcodelem_fieldblock}
+											
+{BEGIN mcdnomelem_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_mcdnomelem}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="mcdnomelem{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="mcdnomelem" data-fieldname="mcdnomelem" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_mcdnomelem}">
+		{$label almovconsdia_egresos mcdnomelem }	</label>
+	<div class="r-search-option">
+		{$searchtype_mcdnomelem}
+	</div>
+	<div class="r-search-field">
+		{$mcdnomelem_editcontrol}	</div>
+	<div class="r-search-field">
+		{$mcdnomelem_editcontrol1}
+	</div>
+	
+</div>
+
+{END mcdnomelem_fieldblock}
+											
+{BEGIN consumo_id_fk_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_consumo_id_fk}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="consumo_id_fk{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field13" {$item_integrated_search_field13} data-pageid="{$pageid}" data-field="consumo_id_fk" data-fieldname="consumo_id_fk" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_consumo_id_fk}">
+		{$label almovconsdia_egresos consumo_id_fk }	</label>
+	<div class="r-search-option">
+		{$searchtype_consumo_id_fk}
+	</div>
+	<div class="r-search-field">
+		{$consumo_id_fk_editcontrol}	</div>
+	<div class="r-search-field">
+		{$consumo_id_fk_editcontrol1}
+	</div>
+	
+</div>
+
+{END consumo_id_fk_fieldblock}
+											
+{BEGIN ctrl_saldo_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ctrl_saldo}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="ctrl_saldo{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field14" {$item_integrated_search_field14} data-pageid="{$pageid}" data-field="ctrl_saldo" data-fieldname="ctrl_saldo" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_ctrl_saldo}">
+		{$label almovconsdia_egresos ctrl_saldo }	</label>
+	<div class="r-search-option">
+		{$searchtype_ctrl_saldo}
+	</div>
+	<div class="r-search-field">
+		{$ctrl_saldo_editcontrol}	</div>
+	<div class="r-search-field">
+		{$ctrl_saldo_editcontrol1}
+	</div>
+	
+</div>
+
+{END ctrl_saldo_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
